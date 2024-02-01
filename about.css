@@ -1,0 +1,141 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+:root {
+
+    --purple300: #270082;
+    --purple500: #281154;
+    --purple600: #1b0058;
+    --offWhite:#FAF9F6;
+    --darkGreem:#023020;
+
+      }
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+  *{
+    
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  html , body {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    background-color: #f6f6f6;
+
+  }
+
+
+  ul{
+
+    list-style: none;
+
+  }
+
+  .container1{
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  a{
+
+    text-decoration: none;
+    color: #f9f6ff;
+
+  }
+
+  header{
+    background-color:var(--purple300);
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  nav ul{
+
+    display: flex;
+    gap: 20px;
+
+  }
+
+
+
+.logo {
+
+    font-size: 32px;
+    font-weight: 600;
+
+
+}
+
+nav ul li {
+
+   border-bottom: 2px solid transparent;
+   transition: o.2s ease-in-out;
+}
+nav ul li:hover{
+
+   border-bottom: 2px solid white;
+   transition: o.2s ease-in-out;
+}
+
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./images/blue3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
+
+
+}
+
+.about{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 600px;
+    max-height: 600px;
+   
+}
+
+.footer{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4px;
+  }
+
+  p,h2,h1{
+    color: #f9f6ff;
+    
+  }
